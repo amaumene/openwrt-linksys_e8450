@@ -11,7 +11,7 @@ env:
   BOARD: "mediatek"
   SUBTARGET: "mt7622"
   PROFILE: "linksys_e8450-ubi"
-  PACKAGES_TYPE1: "softethervpn5-bridge luci iperf3 mtr iwinfo kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
+  PACKAGES_TYPE1: "softethervpn-bridge luci iperf3 mtr iwinfo kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
 
 jobs:
   build:
