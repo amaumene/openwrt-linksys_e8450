@@ -57,9 +57,7 @@ jobs:
           tag_name: ${{ env.OPENWRT_VERSION }}
           release_name: OpenWrt ${{ env.OPENWRT_VERSION }}
           body: |
-            This release is based on OpenWrt snapshot ${{ env.OPENWRT_VERSION }}.
-
-          Type1 is built with these packages: "${{ env.PACKAGES_TYPE1 }}"
+            This release is based on OpenWrt snapshot ${{ env.OPENWRT_VERSION }} and built with these packages: "${{ env.PACKAGES_TYPE1 }}"
 
           draft: false
           prerelease: false
